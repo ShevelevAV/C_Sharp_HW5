@@ -21,7 +21,7 @@ void PrintArray(int[] arr)
     }
    
 }
-void SumNotEver(int[] sne)
+void SumNotEven(int[] sne)
 {
     int sum = 0;
     for(int i = 1; i < sne.Length; i +=2)
@@ -33,4 +33,4 @@ void SumNotEver(int[] sne)
 int[] array = GetArray(4, 1, 100);
 PrintArray(array);
 Console.WriteLine();
-SumNotEver(array);
+SumNotEven(array);
